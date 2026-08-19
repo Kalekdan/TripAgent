@@ -313,7 +313,8 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="mb-8">
+          {/* Temporarily removing the ability to add members on trip creation */}
+          {/* <div className="mb-8">
             <label className="block text-sm font-semibold text-gray-600 uppercase tracking-wide mb-4">
               Trip Members
             </label>
@@ -332,7 +333,7 @@ export default function Home() {
                 </label>
               ))}
             </div>
-          </div>
+          </div> */}
 
           <button
             onClick={handleCreate}
